@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - Sistem Peternakan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="auth-wrap">
+    <div class="auth-card">
+      <div class="auth-head">
+        <div class="logo">
+          <img src="assets/burung.svg" alt="icon" />
+        </div>
+        <div>
+          <h2>Peternakan</h2>
+          <p>Sistem Manajemen</p>
+        </div>
+      </div>
+
+      <form class="form" action="dashboard.html" method="get">
+        <div class="input">
+          <label for="email">Email / Username</label>
+          <input alt="icon" id="email" name="email" type="text" img src="assets/burung.svg" placeholder="contoh: admin" required />
+        </div>
+
+        <div class="input">
+          <label for="pass">Password</label>
+          <input id="pass" name="pass" type="password" placeholder="••••••••" required />
+        </div>
+
+        <button class="btn btn-primary" type="submit">Masuk</button>
+      </form>
+
+      <div class="auth-foot">
+        <span>Catatan: versi demo, belum terhubung database.</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

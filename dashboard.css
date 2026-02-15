@@ -1,0 +1,1158 @@
+.sistem-peternakan {
+    display: flex;
+    flex-direction: column;
+    height: 894px;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.sistem-peternakan .app {
+    display: flex;
+    height: 894px;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #f9fafb;
+}
+
+.sistem-peternakan .section {
+    position: relative;
+    width: 1px;
+    height: 894px;
+}
+
+.sistem-peternakan .dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    height: 894px;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: #e5e7eb;
+}
+
+.sistem-peternakan .container {
+    display: flex;
+    flex-direction: column;
+    width: 287px;
+    height: 103px;
+    align-items: flex-start;
+    padding: 24px 24px 1px;
+    position: relative;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #e5e7eb;
+}
+
+.sistem-peternakan .div {
+    display: flex;
+    height: 54px;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.sistem-peternakan .img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.sistem-peternakan .container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 134.27px;
+    height: 54px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.sistem-peternakan .heading {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 30px;
+}
+
+.sistem-peternakan .text-wrapper {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #101727;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .div-wrapper {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 24px;
+}
+
+.sistem-peternakan .text-wrapper-2 {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #697282;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .navigation {
+    display: flex;
+    flex-direction: column;
+    width: 287px;
+    align-items: flex-start;
+    padding: 16px 16px 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.sistem-peternakan .list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.sistem-peternakan .list-item {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 48px;
+}
+
+.sistem-peternakan .button {
+    all: unset;
+    box-sizing: border-box;
+    width: 255px;
+    background-color: #f0fdf4;
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 0px 0px 16px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.sistem-peternakan .icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.sistem-peternakan .vector {
+    position: absolute;
+    width: 29.17%;
+    height: 37.50%;
+    top: 8.33%;
+    left: 8.33%;
+}
+
+.sistem-peternakan .vector-2 {
+    position: absolute;
+    width: 29.17%;
+    height: 20.83%;
+    top: 8.33%;
+    left: 54.17%;
+}
+
+.sistem-peternakan .vector-3 {
+    position: absolute;
+    width: 29.17%;
+    height: 37.50%;
+    top: 45.83%;
+    left: 54.17%;
+}
+
+.sistem-peternakan .vector-4 {
+    position: absolute;
+    width: 29.17%;
+    height: 20.83%;
+    top: 62.50%;
+    left: 8.33%;
+}
+
+.sistem-peternakan .text {
+    position: relative;
+    width: 166.14px;
+    height: 24px;
+}
+
+.sistem-peternakan .text-wrapper-3 {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #008235;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 255px;
+    height: 48px;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 0px 0px 16px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.sistem-peternakan .vector-5 {
+    position: absolute;
+    width: 66.67%;
+    height: 83.33%;
+    top: 4.17%;
+    left: 12.50%;
+}
+
+.sistem-peternakan .vector-6 {
+    position: absolute;
+    width: 25.00%;
+    height: 25.00%;
+    top: 4.17%;
+    left: 54.17%;
+}
+
+.sistem-peternakan .vector-7 {
+    position: absolute;
+    width: 0;
+    height: 25.00%;
+    top: 45.83%;
+    left: 45.83%;
+}
+
+.sistem-peternakan .vector-8 {
+    position: absolute;
+    width: 25.00%;
+    height: 12.50%;
+    top: 45.83%;
+    left: 33.33%;
+}
+
+.sistem-peternakan .text-2 {
+    width: 90.5px;
+    position: relative;
+    height: 24px;
+}
+
+.sistem-peternakan .text-wrapper-4 {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #354152;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .vector-9 {
+    position: absolute;
+    width: 75.00%;
+    height: 83.32%;
+    top: 4.18%;
+    left: 8.33%;
+}
+
+.sistem-peternakan .vector-10 {
+    position: absolute;
+    width: 0;
+    height: 41.67%;
+    top: 45.83%;
+    left: 45.83%;
+}
+
+.sistem-peternakan .vector-11 {
+    position: absolute;
+    width: 72.58%;
+    height: 20.83%;
+    top: 25.00%;
+    left: 9.54%;
+}
+
+.sistem-peternakan .vector-12 {
+    position: absolute;
+    width: 37.50%;
+    height: 21.46%;
+    top: 13.62%;
+    left: 27.08%;
+}
+
+.sistem-peternakan .text-3 {
+    width: 113.39px;
+    position: relative;
+    height: 24px;
+}
+
+.sistem-peternakan .text-wrapper-5 {
+    left: -3px;
+    position: absolute;
+    top: -2px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #354152;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .vector-13 {
+    position: absolute;
+    width: 25.00%;
+    height: 37.50%;
+    top: 45.83%;
+    left: 33.33%;
+}
+
+.sistem-peternakan .vector-14 {
+    position: absolute;
+    width: 75.00%;
+    height: 79.17%;
+    top: 4.16%;
+    left: 8.33%;
+}
+
+.sistem-peternakan .text-4 {
+    width: 124.11px;
+    position: relative;
+    height: 24px;
+}
+
+.sistem-peternakan .text-wrapper-6 {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #354152;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .text-5 {
+    width: 70.98px;
+    position: relative;
+    height: 24px;
+}
+
+.sistem-peternakan .text-wrapper-7 {
+    left: -1px;
+    position: absolute;
+    top: -2px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #354152;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .vector-15 {
+    position: absolute;
+    width: 58.33%;
+    height: 58.33%;
+    top: 29.17%;
+    left: 4.17%;
+}
+
+.sistem-peternakan .vector-16 {
+    position: absolute;
+    width: 21.25%;
+    height: 33.33%;
+    top: 41.67%;
+    left: 6.04%;
+}
+
+.sistem-peternakan .vector-17 {
+    position: absolute;
+    width: 21.25%;
+    height: 33.33%;
+    top: 25.00%;
+    left: 22.71%;
+}
+
+.sistem-peternakan .vector-18 {
+    position: absolute;
+    width: 21.25%;
+    height: 33.33%;
+    top: 8.33%;
+    left: 39.37%;
+}
+
+.sistem-peternakan .vector-19 {
+    position: absolute;
+    width: 25.00%;
+    height: 25.00%;
+    top: 4.17%;
+    left: 62.50%;
+}
+
+.sistem-peternakan .vector-20 {
+    position: absolute;
+    width: 33.33%;
+    height: 21.25%;
+    top: 64.37%;
+    left: 16.67%;
+}
+
+.sistem-peternakan .vector-21 {
+    position: absolute;
+    width: 33.33%;
+    height: 21.25%;
+    top: 47.71%;
+    left: 33.33%;
+}
+
+.sistem-peternakan .vector-22 {
+    position: absolute;
+    width: 33.33%;
+    height: 21.25%;
+    top: 31.04%;
+    left: 50.00%;
+}
+
+.sistem-peternakan .text-6 {
+    width: 122.72px;
+    position: relative;
+    height: 24px;
+}
+
+.sistem-peternakan .vector-23 {
+    position: absolute;
+    width: 8.33%;
+    height: 0;
+    top: 33.33%;
+    left: 29.17%;
+}
+
+.sistem-peternakan .vector-24 {
+    position: absolute;
+    width: 33.33%;
+    height: 0;
+    top: 50.00%;
+    left: 29.17%;
+}
+
+.sistem-peternakan .vector-25 {
+    position: absolute;
+    width: 33.33%;
+    height: 0;
+    top: 66.67%;
+    left: 29.17%;
+}
+
+.sistem-peternakan .text-7 {
+    width: 118.8px;
+    position: relative;
+    height: 24px;
+}
+
+.sistem-peternakan .vector-26 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 16.67%;
+    left: 8.33%;
+}
+
+.sistem-peternakan .vector-27 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 45.83%;
+    left: 8.33%;
+}
+
+.sistem-peternakan .vector-28 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 75.00%;
+    left: 8.33%;
+}
+
+.sistem-peternakan .vector-29 {
+    position: absolute;
+    width: 54.17%;
+    height: 0;
+    top: 16.67%;
+    left: 29.17%;
+}
+
+.sistem-peternakan .vector-30 {
+    position: absolute;
+    width: 54.17%;
+    height: 0;
+    top: 45.83%;
+    left: 29.17%;
+}
+
+.sistem-peternakan .vector-31 {
+    position: absolute;
+    width: 54.17%;
+    height: 0;
+    top: 75.00%;
+    left: 29.17%;
+}
+
+.sistem-peternakan .text-8 {
+    width: 157.2px;
+    position: relative;
+    height: 24px;
+}
+
+.sistem-peternakan .vector-32 {
+    position: absolute;
+    width: 0;
+    height: 50.00%;
+    top: 8.33%;
+    left: 45.83%;
+}
+
+.sistem-peternakan .vector-33 {
+    position: absolute;
+    width: 75.00%;
+    height: 25.00%;
+    top: 58.33%;
+    left: 8.33%;
+}
+
+.sistem-peternakan .vector-34 {
+    position: absolute;
+    width: 41.67%;
+    height: 20.83%;
+    top: 37.50%;
+    left: 25.00%;
+}
+
+.sistem-peternakan .text-9 {
+    width: 108.78px;
+    position: relative;
+    height: 24px;
+}
+
+.sistem-peternakan .button-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 287px;
+    height: 81px;
+    align-items: flex-start;
+    padding: 17px 16px 0px;
+    position: relative;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #e5e7eb;
+}
+
+.sistem-peternakan .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    align-self: stretch;
+    width: 100%;
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 0px 0px 16px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.sistem-peternakan .vector-35 {
+    position: absolute;
+    width: 20.83%;
+    height: 41.67%;
+    top: 25.00%;
+    left: 62.50%;
+}
+
+.sistem-peternakan .vector-36 {
+    position: absolute;
+    width: 50.00%;
+    height: 0;
+    top: 45.83%;
+    left: 33.33%;
+}
+
+.sistem-peternakan .vector-37 {
+    position: absolute;
+    width: 25.00%;
+    height: 75.00%;
+    top: 8.33%;
+    left: 8.33%;
+}
+
+.sistem-peternakan .text-10 {
+    width: 44.08px;
+    position: relative;
+    height: 24px;
+}
+
+.sistem-peternakan .text-wrapper-8 {
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #e7000b;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .main-content {
+    display: flex;
+    flex-direction: column;
+    height: 894px;
+    align-items: flex-start;
+    padding: 32px 47px 0px 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.sistem-peternakan .status-operasional {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1014px;
+}
+
+.sistem-peternakan .heading-2 {
+    top: 0;
+    left: 0;
+    width: 1184px;
+    position: absolute;
+    height: 24px;
+    display: flex;
+}
+
+.sistem-peternakan .text-wrapper-9 {
+    margin-top: -2px;
+    width: 170px;
+    height: 24px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #101727;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .paragraph {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 1184px;
+    height: 24px;
+    display: flex;
+}
+
+.sistem-peternakan .p {
+    margin-top: -2px;
+    width: 320px;
+    height: 24px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #495565;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .container-3 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+    width: 1184px;
+    height: 166px;
+    gap: 24px;
+    position: absolute;
+    top: 88px;
+    left: 0;
+}
+
+.sistem-peternakan .container-4 {
+    position: relative;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 25px 25px 1px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: 1px solid;
+    border-color: #e5e7eb;
+    box-shadow: 0px 1px 2px -1px #0000001a, 0px 1px 3px #0000001a;
+}
+
+.sistem-peternakan .text-wrapper-10 {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #495565;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .text-wrapper-11 {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 45px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #101727;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.sistem-peternakan .container-5 {
+    position: relative;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 25px 25px 1px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: 1px solid;
+    border-color: #e5e7eb;
+    box-shadow: 0px 1px 2px -1px #0000001a, 0px 1px 3px #0000001a;
+}
+
+.sistem-peternakan .text-wrapper-12 {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 47px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #101727;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.sistem-peternakan .container-6 {
+    position: relative;
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: 1px solid;
+    border-color: #e5e7eb;
+    box-shadow: 0px 1px 2px -1px #0000001a, 0px 1px 3px #0000001a;
+}
+
+.sistem-peternakan .icon-wrapper {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: #f3e8ff;
+    border-radius: 10px;
+}
+
+.sistem-peternakan .icon-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.sistem-peternakan .paragraph-2 {
+    position: absolute;
+    top: 89px;
+    left: 25px;
+    width: 228px;
+    height: 24px;
+    display: flex;
+}
+
+.sistem-peternakan .text-wrapper-13 {
+    margin-top: -2px;
+    width: 128px;
+    height: 24px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #495565;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .heading-3 {
+    top: 117px;
+    left: 25px;
+    width: 228px;
+    position: absolute;
+    height: 24px;
+    display: flex;
+}
+
+.sistem-peternakan .text-wrapper-14 {
+    margin-top: -2px;
+    width: 71px;
+    height: 48px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #101727;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.sistem-peternakan .container-7 {
+    position: relative;
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: 1px solid;
+    border-color: #e5e7eb;
+    box-shadow: 0px 1px 2px -1px #0000001a, 0px 1px 3px #0000001a;
+}
+
+.sistem-peternakan .container-8 {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 48px;
+    height: 48px;
+}
+
+.sistem-peternakan .text-wrapper-15 {
+    margin-top: -2px;
+    width: 120px;
+    height: 24px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #495565;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .text-wrapper-16 {
+    margin-top: -2px;
+    width: 48px;
+    height: 24px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #101727;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.sistem-peternakan .container-9 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+    width: 1184px;
+    height: 398px;
+    gap: 32px;
+    position: absolute;
+    top: 286px;
+    left: 0;
+}
+
+.sistem-peternakan .container-10 {
+    position: relative;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: 1px solid;
+    border-color: #e5e7eb;
+    box-shadow: 0px 1px 2px -1px #0000001a, 0px 1px 3px #0000001a;
+}
+
+.sistem-peternakan .heading-4 {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 526px;
+    height: 24px;
+    display: flex;
+}
+
+.sistem-peternakan .text-wrapper-17 {
+    margin-top: -2px;
+    width: 221px;
+    height: 24px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #101727;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .container-11 {
+    position: absolute;
+    top: 171px;
+    left: 182px;
+    width: 212px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sistem-peternakan .vector-wrapper {
+    margin-left: 74.2px;
+    width: 64px;
+    height: 64px;
+    position: relative;
+}
+
+.sistem-peternakan .paragraph-3 {
+    width: 212.33px;
+    display: flex;
+}
+
+.sistem-peternakan .text-wrapper-18 {
+    margin-top: -2px;
+    width: 213px;
+    height: 24px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #697282;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .container-12 {
+    position: relative;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: 1px solid;
+    border-color: #e5e7eb;
+    box-shadow: 0px 1px 2px -1px #0000001a, 0px 1px 3px #0000001a;
+}
+
+.sistem-peternakan .text-wrapper-19 {
+    margin-top: -2px;
+    width: 152px;
+    height: 24px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #101727;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .container-13 {
+    position: absolute;
+    top: 171px;
+    left: 192px;
+    width: 191px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sistem-peternakan .icon-3 {
+    margin-left: 63.7px;
+    width: 64px;
+    height: 64px;
+    position: relative;
+}
+
+.sistem-peternakan .paragraph-4 {
+    width: 191.36px;
+    display: flex;
+}
+
+.sistem-peternakan .text-wrapper-20 {
+    margin-top: -2px;
+    width: 196px;
+    height: 24px;
+    margin-left: -2px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #697282;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .container-14 {
+    display: flex;
+    flex-direction: column;
+    width: 1184px;
+    height: 298px;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 25px 25px 1px;
+    position: absolute;
+    top: 716px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: 1px solid;
+    border-color: #e5e7eb;
+    box-shadow: 0px 1px 2px -1px #0000001a, 0px 1px 3px #0000001a;
+}
+
+.sistem-peternakan .text-wrapper-21 {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #101727;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sistem-peternakan .container-15 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+}
+
+.sistem-peternakan .icon-4 {
+    position: absolute;
+    top: 48px;
+    left: 535px;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+}
+
+.sistem-peternakan .vector-38 {
+    position: absolute;
+    width: 83.33%;
+    height: 83.33%;
+    top: 4.17%;
+    left: 4.17%;
+}
+
+.sistem-peternakan .vector-39 {
+    position: absolute;
+    width: 0;
+    height: 16.67%;
+    top: 29.17%;
+    left: 45.83%;
+}
+
+.sistem-peternakan .vector-40 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -825.52%;
+    left: -2265.62%;
+}
+
+.sistem-peternakan .paragraph-5 {
+    position: absolute;
+    top: 128px;
+    left: 0;
+    width: 1134px;
+    height: 24px;
+    display: flex;
+}
+
+.sistem-peternakan .text-wrapper-22 {
+    margin-top: -2px;
+    width: 139px;
+    height: 24px;
+    margin-left: 498px;
+    font-family: "Arimo-Regular", Helvetica;
+    font-weight: 400;
+    color: #697282;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard Operasional - Sistem Peternakan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">
+          <img src="assets/burung.svg" alt="icon" />
+        </div>
+        <div class="title">
+          <h1>Peternakan</h1>
+          <p>Sistem Manajemen</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a class="active" href="dashboard.html">
+          <img src="assets/dashboard.svg" alt="icon" />
+          Dashboard Operasional
+        </a>
+        <a href="#">
+          <img src="assets/upload.svg" alt="icon" />
+          Upload Nota
+        </a>
+        <a href="#">
+          <img src="assets/pengiriman_abu.svg" alt="icon" />
+          Data Persediaan
+        </a>
+        <a href="#">
+          <img src="assets/home_abu.svg" alt="icon" />
+          Laporan Kandang
+        </a>
+        <a href="#">
+          <img src="assets/telur.svg" alt="icon" />
+          Data Telur
+        </a>
+        <a href="#">
+          <img src="assets/pakan.svg" alt="icon" />
+          Kebutuhan Pakan
+        </a>
+        <a href="#">
+          <img src="assets/pengiriman_abu.svg" alt="icon" />
+          Nota Pengiriman
+        </a>
+        <a href="#">
+          <img src="assets/selengkapnya.svg" alt="icon" />
+          Lihat Nota Pengiriman
+        </a>
+        <a href="#">
+          <img src="assets/download.svg" alt="icon" />
+          Ekspor Laporan
+        </a>
+
+        <div class="spacer"></div>
+
+        <div class="logout">
+          <a href="login.html">
+            <img src="assets/keluar.svg" alt="icon" />
+            Keluar
+          </a>
+        </div>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <div class="page-title">
+        <h2>Dashboard Operasional</h2>
+        <p>Monitor aktivitas dan status peternakan Anda</p>
+      </div>
+
+      <section class="grid-4">
+        <div class="card">
+          <div class="card-top">
+            <div class="badge-icon" style="background:#dcfce7;">
+              <img src="assets/pengiriman_hijau.svg" alt="icon" />
+            </div>
+            <div class="trend">↗</div>
+          </div>
+          <h3>Total Persediaan</h3>
+          <p class="value">0 Item</p>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <div class="badge-icon" style="background:#e0f2fe;">
+              <img src="assets/telur_biru.svg" alt="icon" />
+            </div>
+            <div class="trend">↗</div>
+          </div>
+          <h3>Total Produksi Telur</h3>
+          <p class="value">0 Butir</p>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <div class="badge-icon" style="background:#f3e8ff;">
+              <img src="assets/home_ungu.svg" alt="icon" />
+            </div>
+            <div class="trend">↗</div>
+          </div>
+          <h3>Laporan Kandang</h3>
+          <p class="value">0 Laporan</p>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <div class="badge-icon" style="background:#ffedd5;">
+              <img src="assets/file_oren.svg" alt="icon" />
+            </div>
+            <div class="trend">↗</div>
+          </div>
+          <h3>Nota Pengiriman</h3>
+          <p class="value">0 Nota</p>
+        </div>
+      </section>
+
+      <section class="grid-2">
+        <div class="panel">
+          <h4>Produksi Telur (7 Hari Terakhir)</h4>
+          <div class="empty-state">
+            <div>
+              <img src="assets/telur_putih.svg" alt="icon" />
+              <p>Belum ada data produksi telur</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h4>Distribusi Persediaan</h4>
+          <div class="empty-state">
+            <div>
+              <img src="assets/pengiriman_putih.svg" alt="icon" />
+              <p>Belum ada data persediaan</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:14px;">
+        <div class="panel" style="min-height: 220px;">
+          <h4>Aktivitas Terkini</h4>
+          <div class="empty-state" style="height: 140px;">
+            <div>
+              <img src="assets/plus.svg" alt="icon" />
+              <p>Belum ada aktivitas</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+</html>
