@@ -1,14 +1,11 @@
 <?php
 session_start();
 include 'koneksi.php';
-
-// Proteksi Halaman: Manajer dan Kepala Gudang (Sesuai RF-012)
 if (!isset($_SESSION['status_login']) || !in_array($_SESSION['role'], ['Manajer', 'Kepala Gudang'])) {
     header("Location: login.php?pesan=akses_ditolak");
     exit;
 }
 
-// Ambil data persediaan
 $query = "SELECT * FROM data_persediaan ORDER BY created_at DESC";
 $result = mysqli_query($conn, $query);
 $jumlah_data = mysqli_num_rows($result);
