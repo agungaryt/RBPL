@@ -201,7 +201,7 @@ $jumlah_data = mysqli_num_rows($result);
     function openModal() { document.getElementById('uploadModal').classList.add('active'); }
     function closeModal() { document.getElementById('uploadModal').classList.remove('active'); }
     
-    // Menutup modal jika klik di luar area modal
+  \
     window.onclick = function(event) {
       if (event.target == document.getElementById('uploadModal')) { closeModal(); }
     }
