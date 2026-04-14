@@ -1,14 +1,11 @@
 <?php
 session_start();
 include 'koneksi.php';
-
-// Proteksi Halaman: Manajer dan Karyawan Kandang (Sesuai PB-03)
 if (!isset($_SESSION['status_login']) || !in_array($_SESSION['role'], ['Manajer', 'Karyawan Kandang'])) {
     header("Location: login.php?pesan=akses_ditolak");
     exit;
 }
 
-// Cek data untuk menentukan layout
 $query = "SELECT * FROM laporan_kandang ORDER BY created_at DESC";
 $result = mysqli_query($conn, $query);
 $jumlah_data = mysqli_num_rows($result);
@@ -21,7 +18,6 @@ $jumlah_data = mysqli_num_rows($result);
   <title>Laporan Kandang - Sistem Peternakan</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* Style tambahan untuk grid form di modal agar mirip gambar */
     .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
     .full-width { grid-column: span 2; }
     .table-container { margin-top: 20px; background: #fff; border-radius: 14px; border: 1px solid var(--border); overflow: hidden; }
