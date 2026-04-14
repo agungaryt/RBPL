@@ -11,7 +11,7 @@ if (isset($_POST['submit_nota'])) {
 
     if ($_FILES['file_nota']['error'] !== UPLOAD_ERR_OK) {
         header("Location: upload_nota.php?status=gagal_upload_error_" . $_FILES['file_nota']['error']);
-        exit; // Wajib menggunakan exit setelah header
+        exit; 
     }
 
     $filename = $_FILES['file_nota']['name'];
@@ -35,7 +35,7 @@ if (isset($_POST['submit_nota'])) {
             header("Location: upload_nota.php?status=sukses");
             exit;
         } else {
-            // Jika database gagal, hapus file yang sudah terlanjur diupload agar folder tidak penuh sampah
+        
             unlink($folder_tujuan . $new_filename);
             header("Location: upload_nota.php?status=gagal_db");
             exit;
@@ -45,7 +45,6 @@ if (isset($_POST['submit_nota'])) {
         exit;
     }
 } else {
-    // Jika mencoba akses langsung tanpa submit form
     header("Location: upload_nota.php");
     exit;
 }
