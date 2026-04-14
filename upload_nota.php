@@ -7,7 +7,6 @@ if (!isset($_SESSION['status_login']) || !in_array($_SESSION['role'], ['Manajer'
     exit;
 }
 
-// 2. Ambil data nota dari database untuk menentukan layout
 $query = "SELECT * FROM notaPembelian ORDER BY upload_at DESC";
 $result = mysqli_query($conn, $query);
 $jumlah_data = mysqli_num_rows($result);
