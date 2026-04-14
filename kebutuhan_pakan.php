@@ -2,13 +2,11 @@
 session_start();
 include 'koneksi.php';
 
-// Proteksi Halaman: Manajer, Kepala Gudang, dan Karyawan Kandang (Sesuai PB-06)
 if (!isset($_SESSION['status_login']) || !in_array($_SESSION['role'], ['Manajer', 'Kepala Gudang', 'Karyawan Kandang'])) {
     header("Location: login.php?pesan=akses_ditolak");
     exit;
 }
 
-// Ambil data kebutuhan pakan
 $query = "SELECT * FROM kebutuhan_pakan ORDER BY created_at DESC";
 $result = mysqli_query($conn, $query);
 $jumlah_data = mysqli_num_rows($result);
