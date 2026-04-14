@@ -2,13 +2,11 @@
 session_start();
 include 'koneksi.php';
 
-// Proteksi Halaman: Cek login & Role (Sesuai RF-012)
 if (!isset($_SESSION['status_login'])) {
     header("Location: login.php");
     exit;
 }
 
-// Ambil data telur dari database
 $query = "SELECT * FROM data_telur ORDER BY created_at DESC";
 $result = mysqli_query($conn, $query);
 $jumlah_data = mysqli_num_rows($result);
