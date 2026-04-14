@@ -20,7 +20,6 @@ $jumlah_data = mysqli_num_rows($result);
   <title>Nota Pembelian - Sistem Peternakan</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* CSS Tambahan untuk Tabel */
     .table-container { 
         margin-top: 20px; 
         background: #fff; 
@@ -200,8 +199,7 @@ $jumlah_data = mysqli_num_rows($result);
   <script>
     function openModal() { document.getElementById('uploadModal').classList.add('active'); }
     function closeModal() { document.getElementById('uploadModal').classList.remove('active'); }
-    
-  \
+
     window.onclick = function(event) {
       if (event.target == document.getElementById('uploadModal')) { closeModal(); }
     }
