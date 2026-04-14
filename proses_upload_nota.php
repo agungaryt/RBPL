@@ -11,7 +11,7 @@ if (isset($_POST['submit_nota'])) {
 
     if ($_FILES['file_nota']['error'] !== UPLOAD_ERR_OK) {
         header("Location: upload_nota.php?status=gagal_upload_error_" . $_FILES['file_nota']['error']);
-        exit; 
+        exit;
     }
 
     $filename = $_FILES['file_nota']['name'];
@@ -25,7 +25,6 @@ if (isset($_POST['submit_nota'])) {
         mkdir($folder_tujuan, 0777, true);
     }
 
-
     if (move_uploaded_file($tmp_name, $folder_tujuan . $new_filename)) {
         
         $query = "INSERT INTO notaPembelian (nomor_nota, tanggal, supplier, file_nota, keterangan, id_user) 
@@ -35,7 +34,6 @@ if (isset($_POST['submit_nota'])) {
             header("Location: upload_nota.php?status=sukses");
             exit;
         } else {
-        
             unlink($folder_tujuan . $new_filename);
             header("Location: upload_nota.php?status=gagal_db");
             exit;
